@@ -19,7 +19,7 @@ public class FirstTest {
                 .getClass()
                 .getEnclosingMethod()
                 .getName();
-        System.out.print(methodName + " for teacher & student");
+        System.out.print(methodName + " for teacher & student\n");
     }
 
 
