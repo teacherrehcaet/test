@@ -23,4 +23,12 @@ public class FirstTest {
     }
 
 
+
+    @Test
+    public void paramTest(){
+        String teacherName = System.getProperty("teacherName");
+        System.out.print(teacherName + " , hi! \n");
+    }
+
+
 }
