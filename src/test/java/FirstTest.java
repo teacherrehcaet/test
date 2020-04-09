@@ -2,7 +2,6 @@ import org.testng.annotations.Test;
 
 public class FirstTest {
 
-
     @Test
     public void studentTest(){
         System.out.print("Hello student!\n");
@@ -22,13 +21,9 @@ public class FirstTest {
         System.out.print(methodName + " for teacher & student\n");
     }
 
-
-
-    @Test
-    public void paramTest(){
-        String teacherName = System.getProperty("teacherName");
-        System.out.print(teacherName + " , hi! \n");
-    }
-
-
+//    @Test
+//    public void paramTest(){
+//        String teacherName = System.getProperty("teacherName");
+//        System.out.print(teacherName + " , hi! \n");
+//    }
 }
